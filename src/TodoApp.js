@@ -8,7 +8,7 @@ const TodoApp = () => {
     const reducerValue = useContext(TodoContext);
     return (
         <div>
-             <input ref={inputRef} type="text" name="item"/>
+             <input ref={inputRef} type="text" name="item" placeholder="Enter Todo item"/>
                 <select ref={selectRef} name="status">
                     <option value="complete">Complete</option>
                     <option value="incomplete">Incomplete</option>
